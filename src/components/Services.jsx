@@ -33,7 +33,7 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section className="pb-28 pt-36 max-lg:pt-28 relative -z-[1] overflow-hidden">
+    <section className="pb-28 max-sm:pb-20 pt-36 max-lg:pt-28 relative -z-[1] overflow-hidden">
       <img
         src={rings_shape}
         alt="rings shape"

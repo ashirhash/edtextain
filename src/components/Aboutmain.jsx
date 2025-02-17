@@ -7,7 +7,7 @@ import YellowUnderlineHeading from "./ui/Headings/YellowUnderlineHeading";
 
 const AboutSection = () => {
   return (
-    <section id="about" className="mb-36 max-lg:mb-32 max-sm:mb-24">
+    <section id="about" className="mb-36 max-lg:mb-32 max-sm:mb-20">
       <div className="container flex flex-col gap-5 md:flex-row bg-white">
         <div className="md:w-1/2 relative flex flex-col items-center md:items-start">
           <img

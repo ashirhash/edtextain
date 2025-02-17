@@ -41,7 +41,7 @@ const Projects = () => {
     <>
       <section
         id="project"
-        className="mb-36 max-lg:mb-20 bg-white relative z-[1]"
+        className="mb-36 max-lg:mb-20 max-sm:mb-16 bg-white relative z-[1]"
       >
         <img
           src={triangleShape}
@@ -65,7 +65,7 @@ const Projects = () => {
           </SideShapeHeading>
           <div className="bg-white border border-dark-navy rounded-xl p-11 max-sm:p-7">
             <div className="lg:w-3/4">
-              <h3 className="text-2xl font-medium text-dark-navy mb-4">
+              <h3 className="text-2xl max-sm:text-xl font-medium text-dark-navy mb-4">
                 Moving Women Empowerment Network (MWEN)
               </h3>
               <p className="text-light-gray mb-10">
@@ -106,11 +106,11 @@ const Projects = () => {
           </div>
         </div>
       </section>
-      <section className="mb-28 max-lg:mb-20 bg-white ">
+      <section className="mb-28 max-lg:mb-20 max-sm:mb-16 bg-white ">
         <div className="container mx-auto relative z-[1] px-4 grid grid-cols-1 lg:grid-cols-2 items-center">
           <div className="p-16 max-sm:px-7 h-[80%] flex flex-col justify-center border border-dark-navy lg:border-r-0 bg-white rounded-l-xl  max-lg:rounded-xl drop-shadow-md shadow-lg">
             <div className="lg:max-w-[440px] ">
-              <h2 className="text-3xl max-lg:text-2xl font-medium text-gray-800 mb-3">
+              <h2 className="text-3xl max-lg:text-2xl max-sm:text-xl font-medium text-gray-800 mb-3">
                 Skills2Evolve (S2E)
               </h2>
               <p className="text-gray-600 text-lg max-lg:text-base">
@@ -143,9 +143,9 @@ const Projects = () => {
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="p-16 col-span-8 mt-7 py-10 max-sm:px-7 flex flex-col justify-center border border-dark-navy lg:border-l-0 bg-white rounded-r-xl max-lg:mb-5 max-lg:rounded-lg drop-shadow-md shadow-lg">
+          <div className="p-16 col-span-8 mt-7 py-10 max-sm:px-7 max-sm:py-7 flex flex-col justify-center border border-dark-navy lg:border-l-0 bg-white rounded-r-xl max-lg:mb-5 max-lg:rounded-lg drop-shadow-md shadow-lg">
             <div className="pb-6 mb-6 border-b border-[#B6C2C9]">
-              <h2 className="text-3xl max-lg:text-2xl font-medium text-gray-800 mb-3">
+              <h2 className="text-3xl max-lg:text-2xl max-sm:text-xl font-medium text-gray-800 mb-3">
                 Sonne Kidz
               </h2>
               <p className="text-gray-600 text-lg max-lg:text-base">
@@ -155,7 +155,7 @@ const Projects = () => {
               </p>
             </div>
             <div className="">
-              <h2 className="text-3xl max-lg:text-2xl font-medium text-gray-800 mb-3">
+              <h2 className="text-3xl max-lg:text-2xl max-sm:text-xl font-medium text-gray-800 mb-3">
                 Sonne Magazine
               </h2>
               <p className="text-gray-600 text-lg max-lg:text-base">

@@ -10,12 +10,12 @@ const Footer = () => {
     <footer className="bg-[#1a1e35] text-white pt-24 max-sm:pt-20">
       <div className="container mx-auto px-4 pb-16 grid max-md:flex max-md:gap-10 max-md:flex-col grid-cols-1 md:grid-cols-12 gap-8">
         <div className="col-span-4 max-lg:col-span-5 lg:mr-10">
-          <img src={logo} className="w-52 mb-5" alt="logoimg" />
-          <p className="mb-4 leading-relaxed">
+          <img src={logo} className="w-52 mb-5 max-sm:w-40" alt="logoimg" />
+          <p className="mb-4 leading-relaxed max-sm:text-sm">
             Edtextain e.V. is registered as a nonprofit at the Administrative
             Court of Munich with the registration number VR 208721.
           </p>
-          <p className="leading-relaxed">
+          <p className="leading-relaxed max-sm:text-sm">
             Address:
             <br />
             C/o Michaelzeit GmbH Bodenstedt 20
@@ -93,7 +93,7 @@ const Footer = () => {
 
       <div className="bg-tomato-red py-3">
         <div className="container flex justify-between max-sm:flex-col max-sm:gap-5 items-center">
-          <p className="text-base">Copyright © 2025 All Rights Reserved</p>
+          <p className="text-base max-sm:text-sm">Copyright © 2025 All Rights Reserved</p>
           <div className="flex justify-center items-center gap-6">
             <a href="#">
               <img src={fb} alt="facebook" />
