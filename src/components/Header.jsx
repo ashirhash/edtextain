@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Button from "./ui/buttons/Button";
-import logo from "../assets/logo.png";
-import burger from "../assets/burger_menu.svg";
+import { burger, logo } from "../assets";
 
 const navLinks = ["Home", "About", "News", "Project", "Publication"];
 

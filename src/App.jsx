@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 const App = () => {
   return (
     <>
-      <div className="font-title">
+      <div className="font-poppins">
         <Home />
       </div>
     </>

@@ -1,7 +1,6 @@
 import React from "react";
-import group_of_people_in_sunshine from "../assets/group_of_people_in_sunshine.png";
-import gmail from "../assets/gmail.png";
-import whatsapp from "../assets/whatsapp.png";
+import { gmail, group_of_people_in_sunshine, whatsapp } from "../assets";
+
 
 const Appointment = () => {
   return (

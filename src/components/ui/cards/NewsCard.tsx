@@ -1,6 +1,6 @@
 import React from "react";
-import contacts from "../../../assets/contacts.svg";
-import calender from "../../../assets/calender.svg";
+import { calender, contacts } from "../../../assets";
+
 const NewsCard = ({ image, tagColor, category, title, date, author }) => {
   return (
     <div className={`bg-white shadow-lg overflow-hidden rounded-lg`}>

@@ -1,9 +1,5 @@
 import React from "react";
-import groupLines from "../assets/GroupLines.png";
-import openBook from "../assets/open_book.svg";
-import handsPeople from "../assets/hands_people.svg";
-import fourHands from "../assets/four_hands.svg";
-import peopleContact from "../assets/people_contact.svg";
+import { fourHands, groupLines, handsPeople, openBook, peopleContact } from "../assets";
 
 const values = [
   {

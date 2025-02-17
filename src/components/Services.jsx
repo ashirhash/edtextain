@@ -1,12 +1,15 @@
 import React from "react";
-import SideShapeHeading from "./ui/headings/SideShapeHeading";
-import YellowUnderlineHeading from "./ui/headings/YellowUnderlineHeading";
 import ServiceCard from "./ui/cards/ServiceCard";
-import people_globe from "../assets/people_globe.svg";
-import book_bulb from "../assets/book_bulb.svg";
-import file_flowchart from "../assets/file_flowchart.svg";
-import target_arrow from "../assets/target_arrow.svg";
-import rings_shape from "../assets/rings-shape.png";
+
+import SideShapeHeading from "./ui/Headings/SideShapeHeading";
+import YellowUnderlineHeading from "./ui/Headings/YellowUnderlineHeading";
+import {
+  book_bulb,
+  file_flowchart,
+  people_globe,
+  rings_shape,
+  target_arrow,
+} from "../assets";
 
 const services = [
   {

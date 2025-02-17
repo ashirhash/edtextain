@@ -1,9 +1,11 @@
 import React from "react";
-import man_standing_on_rock from "../assets/man_standing_on_rock.png";
-import people_making_star from "../assets/people_making_star.png";
-import red_dots from "../assets/red_dots.png";
-import red_highlights from "../assets/highlight-lines.svg";
-import YellowUnderlineHeading from "./ui/headings/YellowUnderlineHeading"
+import YellowUnderlineHeading from "./ui/Headings/YellowUnderlineHeading";
+import {
+  man_standing_on_rock,
+  people_making_star,
+  red_dots,
+  red_highlights,
+} from "../assets";
 
 const AboutSection = () => {
   return (

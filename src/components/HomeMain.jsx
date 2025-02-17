@@ -1,11 +1,6 @@
 import React from "react";
-import homeimg from "../assets/people_holding_books_with_bg.png";
-import hand_price from "../assets/hand_price.png";
-import join_our_Team from "../assets/join_our_Team.png";
-import total_donations from "../assets/total_donations.png";
-import parallel_lines from "../assets/parallel_lines.png";
-import banner_blob from "../assets/banner_blob.png";
-import YellowUnderlineHeading from "./ui/headings/YellowUnderlineHeading";
+import YellowUnderlineHeading from "./ui/Headings/YellowUnderlineHeading";
+import { banner_blob, hand_price, homeimg, join_our_Team, parallel_lines, total_donations } from "../assets";
 
 const HomeSection = () => {
   return (

@@ -1,9 +1,5 @@
 import React from "react";
-import logo from "../assets/logo.png";
-import fb from "../assets/fb.svg";
-import insta from "../assets/insta.svg";
-import twitter from "../assets/twitter.svg";
-import linkedin from "../assets/linkedin.svg";
+import { fb, insta, linkedin, logo, twitter } from "../assets";
 
 const Footer = () => {
   return (
@@ -93,7 +89,9 @@ const Footer = () => {
 
       <div className="bg-tomato-red py-3">
         <div className="container flex justify-between max-sm:flex-col max-sm:gap-5 items-center">
-          <p className="text-base max-sm:text-sm">Copyright © 2025 All Rights Reserved</p>
+          <p className="text-base max-sm:text-sm">
+            Copyright © 2025 All Rights Reserved
+          </p>
           <div className="flex justify-center items-center gap-6">
             <a href="#">
               <img src={fb} alt="facebook" />

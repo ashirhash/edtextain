@@ -1,10 +1,12 @@
 import React from "react";
-import student_in_class from "../assets/student_in_class.png";
-import black_boy_drinkwater from "../assets/black_boy_drinkwater.png";
-import children_smiling from "../assets/children_smiling.png";
-import SideShapeHeading from "./ui/headings/SideShapeHeading";
-import YellowUnderlineHeading from "./ui/headings/YellowUnderlineHeading";
 import NewsCard from "./ui/cards/NewsCard";
+import SideShapeHeading from "./ui/Headings/SideShapeHeading";
+import YellowUnderlineHeading from "./ui/Headings/YellowUnderlineHeading";
+import {
+  black_boy_drinkwater,
+  children_smiling,
+  student_in_class,
+} from "../assets";
 
 const newsData = [
   {
@@ -43,7 +45,9 @@ const NewsSection = () => {
     >
       <div className="container">
         <div className="text-center mb-12">
-          <span className="text-light-gray text-2xl block mb-1 max-lg:text-xl max-sm:text-lg">News</span>
+          <span className="text-light-gray text-2xl block mb-1 max-lg:text-xl max-sm:text-lg">
+            News
+          </span>
           <h2 className="text-4xl text-dark-navy relative inline-block">
             <SideShapeHeading headingClassName="font-medium max-md:text-4xl">
               In The <YellowUnderlineHeading>News</YellowUnderlineHeading>
@@ -53,7 +57,7 @@ const NewsSection = () => {
         <div className="grid grid-cols-3 max-xl:grid-cols-2 max-sm:grid-cols-1 gap-6">
           {newsData.map((news, index) => (
             <NewsCard
-            key={index}
+              key={index}
               image={news.image}
               tagColor={news.tagColor}
               category={news.category}

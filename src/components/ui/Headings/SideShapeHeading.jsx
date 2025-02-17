@@ -1,5 +1,5 @@
 import React from "react";
-import Highlight_05 from "../../../assets/red_highlight_sm.svg";
+import { red_highlight_sm } from "../../../assets";
 
 const SideShapeHeading = ({
   children,
@@ -9,7 +9,7 @@ const SideShapeHeading = ({
   return (
     <div className={`relative ${className}`}>
       <img
-        src={Highlight_05}
+        src={red_highlight_sm}
         className="absolute -left-12 -top-8 max-lg:-left-8 max-lg:-top-6 max-lg:max-w-[40px]"
         alt="Highlight_05"
       />
