@@ -3,7 +3,7 @@ import contacts from "../../../assets/contacts.svg";
 import calender from "../../../assets/calender.svg";
 const NewsCard = ({ image, tagColor, category, title, date, author }) => {
   return (
-    <div className={`bg-white shadow-lg overflow-hidden`}>
+    <div className={`bg-white shadow-lg overflow-hidden rounded-lg`}>
       <img
         src={image}
         alt="News"
@@ -15,7 +15,7 @@ const NewsCard = ({ image, tagColor, category, title, date, author }) => {
         >
           #{category}
         </span>
-        <h3 className="text-2xl font-medium text-dark-navy mb-3">{title}</h3>
+        <h3 className="text-2xl max-sm:text-xl font-medium text-dark-navy mb-3">{title}</h3>
         <p className="text-gray-600 text-sm mb-5 pb-5 border-b border-[#DDD]">
           Lorem ipsum dolor sit amet, consectetur notted adipiscing elit sed do
           eiusmod...
@@ -32,7 +32,7 @@ const NewsCard = ({ image, tagColor, category, title, date, author }) => {
               />{" "}
             </span>
             <div className="">
-              <span className="font-medium text-base block text-dark-navy">Date:</span>
+              <span className="font-medium text-base block text-dark-navy max-sm:text-sm">Date:</span>
               <span className="text-sm block text-light-gray">{date}</span>
             </div>
           </div>
@@ -47,7 +47,7 @@ const NewsCard = ({ image, tagColor, category, title, date, author }) => {
               />{" "}
             </span>
             <div className="">
-              <span className="font-medium text-base block text-dark-navy">By:</span>
+              <span className="font-medium text-base block text-dark-navy max-sm:text-sm">By:</span>
               <span className="text-sm block text-light-gray">{author}</span>
             </div>
           </div>

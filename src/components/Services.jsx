@@ -2,10 +2,10 @@ import React from "react";
 import SideShapeHeading from "./ui/Headings/SideShapeHeading";
 import YellowUnderlineHeading from "./ui/Headings/YellowUnderlineHeading";
 import ServiceCard from "./ui/cards/ServiceCard";
-import people_globe from "../assets/book_bulb.svg";
+import people_globe from "../assets/people_globe.svg";
 import book_bulb from "../assets/book_bulb.svg";
-import file_flowchart from "../assets/book_bulb.svg";
-import target_arrow from "../assets/book_bulb.svg";
+import file_flowchart from "../assets/file_flowchart.svg";
+import target_arrow from "../assets/target_arrow.svg";
 import rings_shape from "../assets/rings-shape.png";
 
 const services = [
@@ -33,15 +33,22 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section className="pb-28 pt-36 relative -z-[1] overflow-hidden">
-      <img src={rings_shape} alt="rings shape" className="absolute rotate-12 -bottom-32 right-0 -z-[1]" />
+    <section className="pb-28 pt-36 max-lg:pt-28 relative -z-[1] overflow-hidden">
+      <img
+        src={rings_shape}
+        alt="rings shape"
+        className="absolute rotate-12 -bottom-32 right-0 -z-[1]"
+      />
       <div className="container">
         <SideShapeHeading className="w-fit mx-auto mb-12">
-          <YellowUnderlineHeading>Services</YellowUnderlineHeading>
+          <YellowUnderlineHeading className="leading-none max-md:text-4xl">
+            Services
+          </YellowUnderlineHeading>
         </SideShapeHeading>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-4 max-xl:grid-cols-2 max-sm:grid-cols-1 gap-8">
           {services.map((service, index) => (
             <ServiceCard
+              key={index}
               title={service.title}
               icon={service.icon}
               desc={service.desc}

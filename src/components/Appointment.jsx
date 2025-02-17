@@ -7,7 +7,7 @@ const Appointment = () => {
   return (
     <>
       <section
-        className="bg-cover bg-center bg-no-repeat mb-36"
+        className="bg-cover bg-center bg-no-repeat mb-36 max-md:mb-24"
         style={{ backgroundImage: `url(${group_of_people_in_sunshine})` }}
       >
         <div className=" bg-black bg-opacity-60">
