@@ -2,8 +2,8 @@ import React from "react";
 import student_in_class from "../assets/student_in_class.png";
 import black_boy_drinkwater from "../assets/black_boy_drinkwater.png";
 import children_smiling from "../assets/children_smiling.png";
-import SideShapeHeading from "./ui/Headings/SideShapeHeading";
-import YellowUnderlineHeading from "./ui/Headings/YellowUnderlineHeading";
+import SideShapeHeading from "./ui/headings/SideShapeHeading";
+import YellowUnderlineHeading from "./ui/headings/YellowUnderlineHeading";
 import NewsCard from "./ui/cards/NewsCard";
 
 const newsData = [

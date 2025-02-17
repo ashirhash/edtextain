@@ -5,7 +5,7 @@ import join_our_Team from "../assets/join_our_Team.png";
 import total_donations from "../assets/total_donations.png";
 import parallel_lines from "../assets/parallel_lines.png";
 import banner_blob from "../assets/banner_blob.png";
-import YellowUnderlineHeading from "./ui/Headings/YellowUnderlineHeading";
+import YellowUnderlineHeading from "./ui/headings/YellowUnderlineHeading";
 
 const HomeSection = () => {
   return (
