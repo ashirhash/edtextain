@@ -30,8 +30,8 @@ const values = [
 
 const CoreValues = () => {
   return (
-    <section className="pt-32 pb-64">
-      <div className="container relative grid grid-cols-4 justify-center gap-7">
+    <section className="pt-32 max-xl:pt-24 pb-64 max-xl:pb-32">
+      <div className="container relative grid grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1 justify-center gap-7 max-lg:gap-y-20">
         {values.map((value, index) => (
           <div
             key={index}
@@ -39,23 +39,23 @@ const CoreValues = () => {
           >
             <div
               className="-mt-20 mx-auto drop-shadow-md shadow-lg
- bg-white w-[120px] h-[120px] flex justify-center items-center p-6 rounded-full"
+ bg-white w-[120px] max-xl:w-[90px] h-[120px] max-xl:h-[90px] flex justify-center items-center p-6 rounded-full"
             >
               <img
                 src={value.icon}
                 alt="icon"
                 width={54}
                 height={54}
-                className="object-contain group-hover:-rotate-12 transition-all group-hover:scale-125 will-change-transform"
+                className="object-contain group-hover:-rotate-12 transition-all group-hover:scale-125 will-change-transform max-xl:w-10 max-xl:h-10"
               />
             </div>
-            <p className="mt-12 leading-tight text-3xl font-medium text-dark-navy">
+            <p className="mt-12 max-sm:mt-8 leading-tight text-3xl max-xl:text-2xl max-xl:max-w-60 font-medium text-dark-navy">
               {value.title}
             </p>
             <img
               src={groupLines}
               alt="grouplines"
-              className="w-24 h-24 absolute right-0 bottom-0 -z-[1] group-hover:-translate-y-10 transition-all"
+              className="w-24 h-24 max-sm:w-20 max-sm:h-20 absolute right-0 bottom-0 -z-[1] group-hover:-translate-y-10 transition-all"
             />
           </div>
         ))}

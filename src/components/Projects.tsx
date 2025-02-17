@@ -51,7 +51,7 @@ const Projects = () => {
           className="absolute left-0 top-[80%] -z-[1]"
         />
         <div className="container">
-          <SideShapeHeading className="mx-auto w-fit mb-11">
+          <SideShapeHeading headingClassName="max-xl:text-[44px] max-lg:text-4xl" className="mx-auto w-fit mb-11">
             Our Work: <YellowUnderlineHeading>Projects</YellowUnderlineHeading>
           </SideShapeHeading>
           <div className="bg-white border border-dark-navy rounded-xl p-11">
@@ -65,13 +65,13 @@ const Projects = () => {
                 to succeed in their communities and professional lives.
               </p>
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center max-xl:items-start">
               <img
                 src={book_with_pen_portrait}
                 alt="MWEN Event"
                 className="rounded-xl shadow-md"
               />
-              <div className="flex flex-col gap-12">
+              <div className="flex flex-col gap-12 max-xl:gap-5">
                 {projects.map((project, index) => (
                   <div
                     key={index}
@@ -83,7 +83,7 @@ const Projects = () => {
                       className="w-2/5 rounded-lg border border-[#DFDBE1]"
                     />
                     <div>
-                      <h4 className="text-lg font-semibold text-gray-800">
+                      <h4 className="text-lg max-xl:text-base max-xl:mb-2 font-semibold text-gray-800">
                         {project.name}
                       </h4>
                       <p className="text-gray-600 text-sm">

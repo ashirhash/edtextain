@@ -1,10 +1,10 @@
 import React from "react";
 import Header from "../components/Header";
 import HomeSection from "../components/HomeMain";
-import ServicesSection from "../components/Services";
 import CoreValues from "../components/CoreValues";
 import AboutSection from "../components/Aboutmain";
 import Appointment from "../components/Appointment";
+import ServicesSection from "../components/Services";
 import NewsSection from "../components/News";
 import Footer from "../components/Footer";
 import Projects from "../components/Projects";
@@ -20,10 +20,10 @@ const Home = () => {
         <AboutSection />
         <Appointment />
         <Projects />
-        <Marquee />
+        {/* <Marquee />
         <ServicesSection />
         <NewsSection />
-        <Footer />
+        <Footer /> */}
       </main>
     </>
   );

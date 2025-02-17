@@ -3,9 +3,12 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      screens: {
+        "2xl": "1550px"
+      },
       container: {
         center: true,
-        padding: 15,
+        padding: 20,
         screens: {
           DEFAULT: "1440px",
         },
