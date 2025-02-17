@@ -3,6 +3,7 @@ import homeimg from "../assets/people_holding_books_with_bg.png";
 import hand_price from "../assets/hand_price.png";
 import join_our_Team from "../assets/join_our_Team.png";
 import total_donations from "../assets/total_donations.png";
+import parallel_lines from "../assets/parallel_lines.png";
 import YellowUnderlineHeading from "./ui/Headings/YellowUnderlineHeading";
 
 const HomeSection = () => {
@@ -13,6 +14,11 @@ const HomeSection = () => {
           src="src/assets/banner_blob.png"
           alt="blob shape"
           className="absolute left-0 -top-24 -z-[1]"
+        />
+        <img
+          src="src/assets/parallel_lines.png"
+          alt="blob shape"
+          className="absolute right-0 -z-[1] w-2/4 max-lg:hidden"
         />
         <div className="container w-full flex max-lg:flex-col max-2xl:items-start items-center">
           <div className="w-[55%] max-lg:w-full pt-44 max-2xl:pt-32 max-lg:py-16 max-sm:py-10 pb-36">
