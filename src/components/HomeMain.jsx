@@ -16,7 +16,7 @@ const HomeSection = () => {
           className="absolute left-0 -top-24 -z-[1]"
         />
         <img
-          src="src/assets/parallel_lines.png"
+          src={parallel_lines}
           alt="blob shape"
           className="absolute right-0 -z-[1] w-2/4 max-lg:hidden"
         />
