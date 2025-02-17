@@ -46,7 +46,7 @@ const HomeSection = () => {
           <div className="w-1/2 max-lg:w-full">
             <div className="absolute w-fit max-lg:w-2/3 max-sm:max-w-[500px] max-sm:w-full max-lg:mx-auto max-lg:relative bottom-0">
               <img src={homeimg} className="w-full" alt="" />
-              <div className="absolute top-[5%] right-[40%] w-12">
+              <div className="absolute top-[5%] right-[40%] w-16 max-xl:w-12">
                 <img src={hand_price} alt="handpricelogo" />
               </div>
               <img
