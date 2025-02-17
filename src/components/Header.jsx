@@ -32,7 +32,7 @@ const Header = () => {
                 <a
                   key={index}
                   href="#"
-                  className="relative text-dark-navy transition hover:text-tomato-red cursor-pointer after:mx-auto after:block after:h-[1px] after:w-0 after:bg-tomato-red after:transition-all hover:after:w-8 after:mt-2 after:absolute after:-bottom-1 after:left-0 after:right-0"
+                  className="relative text-dark-navy transition hover:text-tomato-red cursor-pointer after:mx-auto after:block after:h-[1px] after:w-0 after:bg-tomato-red after:transition-all hover:after:w-8 after:mt-2 after:absolute after:bottom-0 after:left-0 after:right-0 pb-1"
                 >
                   {nav}
                 </a>
