@@ -92,10 +92,10 @@ const Projects = () => {
                       className="w-2/5 rounded-lg border border-[#DFDBE1] "
                     />
                     <div>
-                      <h4 className="text-lg max-xl:text-base max-xl:mb-2 font-semibold text-gray-800">
+                      <h4 className="text-2xl max-xl:text-xl max-lg:text-lg max-xl:mb-2 font-medium text-dark-navy">
                         {project.name}
                       </h4>
-                      <p className="text-gray-600 text-sm">
+                      <p className="text-light-gray text-base">
                         {project.description}
                       </p>
                     </div>
