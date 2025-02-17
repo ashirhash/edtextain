@@ -1,48 +1,62 @@
 import React from "react";
-import groupLines from '../assests/GroupLines.png'
-import { FaBookOpen, FaUsers, FaHandshake, FaNetworkWired } from "react-icons/fa";
+import groupLines from "../assets/GroupLines.png";
+import openBook from "../assets/open_book.svg";
+import handsPeople from "../assets/hands_people.svg";
+import fourHands from "../assets/four_hands.svg";
+import peopleContact from "../assets/people_contact.svg";
 
 const values = [
   {
-    icon: <FaBookOpen className="text-3xl text-gray-700" />, 
-    title: "Embracing Outcomes", 
+    icon: openBook,
+    title: "Embracing Outcomes",
     bgColor: "bg-blue-100",
-    bgImg:groupLines
   },
   {
-    icon: <FaUsers className="text-3xl text-gray-700" />, 
-    title: "Strengthening Communities", 
+    icon: handsPeople,
+    title: "Strengthening Communities",
     bgColor: "bg-yellow-100",
-    bgImg:groupLines
-
   },
   {
-    icon: <FaHandshake className="text-3xl text-gray-700" />, 
-    title: "Celebrating Diversity", 
+    icon: fourHands,
+    title: "Celebrating Diversity",
     bgColor: "bg-indigo-100",
-    bgImg:groupLines
-
   },
   {
-    icon: <FaNetworkWired className="text-3xl text-gray-700" />, 
-    title: "Building Connections", 
+    icon: peopleContact,
+    title: "Building Connections",
     bgColor: "bg-teal-100",
-    bgImg:groupLines
-
-  }
+  },
 ];
 
 const CoreValues = () => {
   return (
-    <section className="py-12 px-6 md:px-16 lg:px-24 bg-white">
-      <div className="flex flex-col relative md:flex-row justify-center items-center gap-6">
+    <section className="pt-32 pb-64">
+      <div className="container relative grid grid-cols-4 justify-center gap-7">
         {values.map((value, index) => (
-          <div key={index} className={`relative ${value.bgColor} p-4 rounded-lg shadow-lg w-64 text-left`}>
-            <div className="absolute -top-6 left-1/2 transform shadow-gray-300 -translate-x-1/2 bg-white p-6 rounded-full shadow-lg">
-              {value.icon}
+          <div
+            key={index}
+            className={`relative group z-[1] p-6 pb-14 rounded-lg shadow-lg text-left ${value.bgColor}`}
+          >
+            <div
+              className="-mt-20 mx-auto drop-shadow-md shadow-lg
+ bg-white w-[120px] h-[120px] flex justify-center items-center p-6 rounded-full"
+            >
+              <img
+                src={value.icon}
+                alt="icon"
+                width={54}
+                height={54}
+                className="object-contain group-hover:-rotate-12 transition-all group-hover:scale-125 will-change-transform"
+              />
             </div>
-            <p className="mt-10 font-semibold text-[1.5rem] text-gray-800">{value.title}</p>
-            <img src={groupLines} alt="grouplines" className="w-1/3 ml-36  mt-2" />
+            <p className="mt-12 leading-tight text-3xl font-medium text-dark-navy">
+              {value.title}
+            </p>
+            <img
+              src={groupLines}
+              alt="grouplines"
+              className="w-24 h-24 absolute right-0 bottom-0 -z-[1] group-hover:-translate-y-10 transition-all"
+            />
           </div>
         ))}
       </div>

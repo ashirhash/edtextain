@@ -1,12 +1,9 @@
 import React from "react";
-import logo from "../assests/logo.png";
-import fb from "../assests/fb.svg";
-import insta from "../assests/insta.svg";
-import twitter from "../assests/twitter.svg";
-import linkedin from "../assests/linkedin.svg";
-
-
-
+import logo from "../assets/logo.png";
+import fb from "../assets/fb.svg";
+import insta from "../assets/insta.svg";
+import twitter from "../assets/twitter.svg";
+import linkedin from "../assets/linkedin.svg";
 
 const Footer = () => {
   return (
@@ -101,7 +98,6 @@ const Footer = () => {
           <img src={insta} alt="" />
           <img src={twitter} alt="" />
           <img src={linkedin} alt="" />
-
         </div>
       </div>
     </footer>

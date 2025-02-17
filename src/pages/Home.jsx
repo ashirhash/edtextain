@@ -1,27 +1,32 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-import HomeSection from '../components/HomeMain'
-import Footer from '../components/Footer'
-import NewsSection from '../components/News'
-import ServicesSection from '../components/Services'
-import Project from './Project'
-import About from './About'
-
+import React from "react";
+import Header from "../components/Header";
+import HomeSection from "../components/HomeMain";
+import ServicesSection from "../components/Services";
+import CoreValues from "../components/CoreValues";
+import AboutSection from "../components/Aboutmain";
+import Appointment from "../components/Appointment";
+import NewsSection from "../components/News";
+import Footer from "../components/Footer";
+import Projects from "../components/Projects";
+import Marquee from "../components/Marquee";
 
 const Home = () => {
   return (
     <>
-<main className='w-full h-screen  '>
-  <Navbar/>
-  <HomeSection/>
-  <About/>
-  <Project/>
-  <ServicesSection/>
-  <NewsSection/>
-  <Footer/>
-</main>
+      <main className="w-full h-screen  ">
+        <Header />
+        <HomeSection />
+        <CoreValues />
+        <AboutSection />
+        <Appointment />
+        <Projects />
+        <Marquee />
+        <ServicesSection />
+        <NewsSection />
+        <Footer />
+      </main>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

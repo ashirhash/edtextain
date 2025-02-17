@@ -1,41 +1,68 @@
 import React from "react";
-import man_standing_on_rock from '../assests/man_standing_on_rock.png'
-import people_making_star from '../assests/people_making_star.png'
-import red_dots from '../assests/red_dots.png'
+import man_standing_on_rock from "../assets/man_standing_on_rock.png";
+import people_making_star from "../assets/people_making_star.png";
+import red_dots from "../assets/red_dots.png";
+import red_highlights from "../assets/highlight-lines.svg";
+import YellowUnderlineHeading from "./ui/Headings/YellowUnderlineHeading";
 
 const AboutSection = () => {
   return (
-    <section id="about" className="flex flex-col mb-20 md:flex-row items-center px-6 md:px-16 lg:px-24 py-12 bg-white">
-      {/* Left Image Section */}
-      <div className="md:w-1/2 relative flex flex-col items-center md:items-start space-y-4">
-        <img
-          src={man_standing_on_rock}
-          alt="man_standing_on_rock"
-          className="rounded-lg shadow-lg absolute  z-20 right-4 -top-[10rem] w-[70%] max-w-md"
-        />
-       <img src={red_dots} className="absolute left-20  top-[8rem]" alt="red_dots" />
-       <img src={people_making_star} className="absolute z-30  w-1/3 left-10 -top-[13rem]" alt="people_making_star" />
-      </div>
-
-      {/* Right Content Section */}
-      <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
-        <p className="text-gray-500">Welcome to edtextain</p>
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
-          <span className="text-black">Enabling people,</span>
-          <span className="text-yellow-500"> inspiring growth, supporting innovation</span>
-        </h1>
-        <p className="text-red-600 font-semibold mt-4">
-          We enable inter-cultural conversations.
-        </p>
-        <p className="text-gray-600 mt-4 max-w-lg">
-          Edtextain e.V. is a non-profit organization founded in 2014, in Munich, Germany. We support educational, technological, and professional advancement by providing essential tools, resources, and opportunities for people to thrive.
-        </p>
-        <p className="text-gray-800 font-semibold mt-4">
-          Join our community and empower your journey to success.
-        </p>
-        <button className="mt-6 px-6 py-3 bg-red-600 text-white font-semibold rounded-md shadow-md hover:bg-red-700">
-          Learn more
-        </button>
+    <section id="about" className="mb-36">
+      <div className="container flex flex-col gap-5 md:flex-row bg-white">
+        <div className="md:w-1/2 relative flex flex-col items-center md:items-start">
+          <img
+            src={man_standing_on_rock}
+            alt="man_standing_on_rock"
+            className="rounded-lg shadow-lg relative z-[1] object-cover w-4/5 ml-auto"
+          />
+          <img
+            src={red_dots}
+            className="absolute left-16 -bottom-3"
+            alt="red_dots"
+          />
+          <div className="shadow-10-10-24-0-0.12 border-[12px] border-white absolute z-[1] w-72 left-0 -top-[8rem]">
+            <img
+              src={people_making_star}
+              className="w-full object-cover"
+              alt="people_making_star"
+            />
+          </div>
+        </div>
+        <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
+          <p className="text-light-gray mb-5 text-2xl relative w-fit">
+            Welcome to edtextain
+            <img
+              src={red_highlights}
+              alt="highlighting shape"
+              className="absolute -top-7 -right-[70px] object-contain"
+            />
+          </p>
+          <h2 className="text-[44px] font-medium text-dark-navy mb-5 leading-snug">
+            {/* <span className="relative z-[1]">
+              Enabling people,
+              <span className="absolute -z-[1] left-0 bottom-1 w-full h-3 bg-banana-yellow"></span>
+            </span>{" "} */}
+            <YellowUnderlineHeading>Enabling people,</YellowUnderlineHeading>{" "}
+            inspiring growth, supporting innovation
+          </h2>
+          <div className="w-4/5">
+            <p className="text-tomato-red font-medium mb-5 text-2xl">
+              We enable inter-cultural conversations.
+            </p>
+            <p className="text-light-gray text-lg leading-relaxed mb-4">
+              Edtextain e.V. is a non-profit organization founded in 2014, in
+              Munich, Germany. We support educational, technological, and
+              professional advancement by providing essential tools, resources,
+              and opportunities for people to thrive.
+            </p>
+            <p className="text-light-gray font-semibold mb-7">
+              Join our community and empower your journey to success.
+            </p>
+          </div>
+          <button className="bg-tomato-red hover:bg-white hover:text-tombg-tomato-red border-[1px] border-transparent hover:border-tomato-red transition-all text-white hover:text-tomato-red text-lg font-medium px-7 py-3 rounded-[4px]">
+            Learn more
+          </button>
+        </div>
       </div>
     </section>
   );

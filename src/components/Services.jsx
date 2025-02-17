@@ -1,44 +1,51 @@
-import React from 'react';
-import Headings from '../components/Headings'
-import Highlight_05 from '../assests/Highlight_05.png'
+import React from "react";
+import SideShapeHeading from "./ui/Headings/SideShapeHeading";
+import YellowUnderlineHeading from "./ui/Headings/YellowUnderlineHeading";
+import ServiceCard from "./ui/cards/ServiceCard";
+import people_globe from "../assets/book_bulb.svg";
+import book_bulb from "../assets/book_bulb.svg";
+import file_flowchart from "../assets/book_bulb.svg";
+import target_arrow from "../assets/book_bulb.svg";
+import rings_shape from "../assets/rings-shape.png";
 
 const services = [
   {
-    title: 'Education and skills development',
-    description: 'Sometimes finding the right educational path and skill to pursue is a challenge especially in a new country. We offer job and skills training to ensure you get into professions that will create a sustainable future for all. We also do offer supporting for CV development, job search training and processes to get you into your desired profession.',
-    icon: '📘'
+    title: "Education and skills development",
+    desc: "Sometimes finding the right educational path and skill to pursue is a challenge especially in a new country. We offer job and skills training to ensure you get into professions that will create a sustainable future for all. We also do offer supporting for CV development, job search training and processes to get you into your desired profession.",
+    icon: book_bulb,
   },
   {
-    title: 'Counseling on migration',
-    description: 'We offer individual as well as group counselling sessions on migration laws, updates and information on various topics on migration and the many possibilities in Germany. We work together with partners who provide migration services or information that help in the migration process (like helping to find lawyers or organizations that support migrants and refugees, etc.)',
-    icon: '🧭'
+    title: "Counseling on migration",
+    desc: "We offer individual as well as group counselling sessions on migration laws, updates and information on various topics on migration and the many possibilities in Germany. We work together with partners who provide migration services or information that help in the migration process (like helping to find lawyers or organizations that support migrants and refugees, etc.)",
+    icon: people_globe,
   },
   {
-    title: 'Integration support',
-    description: 'Having to go through processes alone can be overwhelming and some of our volunteers have had firsthand experiences on the challenges migrants face. We also help with topics like parenting, the school system in Germany, entrepreneurship, etc.',
-    icon: '🔗'
+    title: "Integration support",
+    desc: "Having to go through processes alone can be overwhelming and some of our volunteers have had firsthand experiences on the challenges migrants face. We also help with topics like parenting, the school system in Germany, entrepreneurship, etc.",
+    icon: file_flowchart,
   },
   {
-    title: 'Intercultural communication',
-    description: 'Workers in the social and refugee space as well as migrants and refugees do sometimes meet challenges working with each other. Misunderstandings arise quickly when communication is lost in transition. With our experts with strong experience in intercultural communication competencies, we offer trainings for migrant and social workers as well as migrants and refugees.',
-    icon: '🎯'
-  }
+    title: "Intercultural communication",
+    desc: "Workers in the social and refugee space as well as migrants and refugees do sometimes meet challenges working with each other. Misunderstandings arise quickly when communication is lost in transition. With our experts with strong experience in intercultural communication competencies, we offer trainings for migrant and social workers as well as migrants and refugees.",
+    icon: target_arrow,
+  },
 ];
 
 const ServicesSection = () => {
   return (
-    <section className="py-16 relative bg-white">
-      <div className="container mx-auto px-4 text-center">
-      <img src={Highlight_05} className='absolute max-sm:left-[5rem] max-md:left-[9rem]  top-10 left-[32rem]'  alt="Highlight_05" />
-
-<h1 className='text-5xl font-semibold m-2 text-gray-900  capitalize'>services</h1>
+    <section className="pb-28 pt-36 relative -z-[1] overflow-hidden">
+      <img src={rings_shape} alt="rings shape" className="absolute rotate-12 -bottom-32 right-0 -z-[1]" />
+      <div className="container">
+        <SideShapeHeading className="w-fit mx-auto mb-12">
+          <YellowUnderlineHeading>Services</YellowUnderlineHeading>
+        </SideShapeHeading>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
-            <div key={index} className="p-6 bg-white shadow-md rounded-2xl hover:shadow-lg transition duration-300">
-              <div className="text-5xl mb-4">{service.icon}</div>
-              <h3 className="text-xl font-semibold mb-4">{service.title}</h3>
-              <p className="text-gray-600 text-sm">{service.description}</p>
-            </div>
+            <ServiceCard
+              title={service.title}
+              icon={service.icon}
+              desc={service.desc}
+            />
           ))}
         </div>
       </div>
