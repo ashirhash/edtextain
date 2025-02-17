@@ -4,6 +4,7 @@ import hand_price from "../assets/hand_price.png";
 import join_our_Team from "../assets/join_our_Team.png";
 import total_donations from "../assets/total_donations.png";
 import parallel_lines from "../assets/parallel_lines.png";
+import banner_blob from "../assets/banner_blob.png";
 import YellowUnderlineHeading from "./ui/Headings/YellowUnderlineHeading";
 
 const HomeSection = () => {
@@ -11,7 +12,7 @@ const HomeSection = () => {
     <>
       <section className="bg-[#eef4f8] relative z-[1] overflow-hidden max-lg:min-h-[600px]">
         <img
-          src="src/assets/banner_blob.png"
+          src={banner_blob}
           alt="blob shape"
           className="absolute left-0 -top-24 -z-[1]"
         />
