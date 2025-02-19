@@ -35,7 +35,7 @@ const CoreValues = () => {
           >
             <div
               className="-mt-20 mx-auto drop-shadow-md shadow-lg
- bg-white w-[120px] max-xl:w-[90px] h-[120px] max-xl:h-[90px] flex justify-center items-center p-6 rounded-full"
+ bg-white w-[120px] h-[120px] max-xl:w-[90px] max-xl:h-[90px] max-2xl:w-[105px] max-2xl:h-[105px] flex justify-center items-center p-6 max-2xl:p-7 rounded-full"
             >
               <img
                 src={value.icon}
@@ -45,7 +45,7 @@ const CoreValues = () => {
                 className="object-contain group-hover:-rotate-12 transition-all group-hover:scale-125 will-change-transform max-xl:w-10 max-xl:h-10"
               />
             </div>
-            <p className="mt-12 max-sm:mt-8 leading-tight text-3xl max-xl:text-2xl max-xl:max-w-60 font-medium text-dark-navy">
+            <p className="mt-12 max-sm:mt-8 leading-tight text-3xl max-2xl:text-2xl max-xl:max-w-60 font-medium text-dark-navy">
               {value.title}
             </p>
             <img

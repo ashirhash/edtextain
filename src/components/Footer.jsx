@@ -7,11 +7,11 @@ const Footer = () => {
       <div className="container mx-auto px-4 pb-16 grid max-md:flex max-md:gap-10 max-md:flex-col grid-cols-1 md:grid-cols-12 gap-8">
         <div className="col-span-4 max-lg:col-span-5 lg:mr-10">
           <img src={logo} className="w-52 mb-5 max-sm:w-40" alt="logoimg" />
-          <p className="mb-4 leading-relaxed max-sm:text-sm">
+          <p className="mb-4 leading-relaxed max-lg:text-sm">
             Edtextain e.V. is registered as a nonprofit at the Administrative
             Court of Munich with the registration number VR 208721.
           </p>
-          <p className="leading-relaxed max-sm:text-sm">
+          <p className="leading-relaxed max-lg:text-sm">
             Address:
             <br />
             C/o Michaelzeit GmbH Bodenstedt 20
@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
 
         <div className="col-start-6 col-span-3">
-          <h3 className="text-2xl font-medium mb-6">Quick links</h3>
+          <h3 className="text-2xl max-lg:text-xl font-medium mb-6">Quick links</h3>
           <ul className="space-y-5">
             <li>
               <a href="#" className="transition hover:text-tomato-red">
@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
 
         <div className="col-span-4">
-          <h3 className="text-2xl font-medium mb-6">Support</h3>
+          <h3 className="text-2xl max-lg:text-xl font-medium mb-6">Support</h3>
           <ul className="space-y-5">
             <li>
               <a href="#" className="transition hover:text-tomato-red">
@@ -89,7 +89,7 @@ const Footer = () => {
 
       <div className="bg-tomato-red py-3">
         <div className="container flex justify-between max-sm:flex-col max-sm:gap-5 items-center">
-          <p className="text-base max-sm:text-sm">
+          <p className="text-base max-lg:text-sm">
             Copyright © 2025 All Rights Reserved
           </p>
           <div className="flex justify-center items-center gap-6">

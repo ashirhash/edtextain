@@ -3,15 +3,22 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      screens: {
-        "2xl": "1550px"
-      },
       container: {
         center: true,
         padding: 20,
         screens: {
-          DEFAULT: "1440px",
+          sm: "100%",
+          lg: "1140px",
+          xl: "1200px",
+          "2xl": "1600px",
         },
+      },
+      screens: {
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+        "2xl": "1600px",
       },
       fontFamily: {
         poppins: ["Poppins"],

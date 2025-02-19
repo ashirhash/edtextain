@@ -1,6 +1,14 @@
 import React from "react";
 import YellowUnderlineHeading from "./ui/Headings/YellowUnderlineHeading";
-import { banner_blob, hand_price, homeimg, join_our_Team, parallel_lines, total_donations } from "../assets";
+import {
+  banner_blob,
+  hand_price,
+  homeimg,
+  join_our_Team,
+  parallel_lines,
+  total_donations,
+} from "../assets";
+import ButtonSolid from "./ui/buttons/ButtonSolid";
 
 const HomeSection = () => {
   return (
@@ -17,9 +25,9 @@ const HomeSection = () => {
           className="absolute right-0 -z-[1] w-2/4 max-lg:hidden"
         />
         <div className="container w-full flex max-lg:flex-col max-2xl:items-start items-center">
-          <div className="w-[55%] max-lg:w-full pt-44 max-2xl:pt-32 max-lg:py-16 max-sm:py-10 pb-36">
+          <div className="w-[55%] max-lg:w-full pt-44 max-2xl:pt-32 max-2xl:pb-24 max-xl:pt-20 max-xl:pb-20 max-lg:pt-12 max-lg:pb-5 max-sm:py-10 pb-36">
             <div className="max-2xl:max-w-[600px] max-lg:w-full">
-              <h1 className="text-[82px] max-2xl:text-6xl max-sm:text-4xl z-1 relative leading-tight text-gray-900">
+              <h1 className="text-[82px] max-2xl:text-6xl max-xl:text-[42px] max-sm:text-4xl z-1 relative leading-tight text-gray-900">
                 <YellowUnderlineHeading
                   className="font-bold"
                   strokeClassName="bottom-4"
@@ -29,18 +37,16 @@ const HomeSection = () => {
                 <span className="font-bold"> Action</span>
                 <span className="font-light"> For A Sustainable Tomorrow</span>
               </h1>
-              <p className="text-gray-600 text-lg max-sm:text-base mt-5 w-[85%] mb-14 max-md:mb-9">
+              <p className="text-gray-600 text-lg max-xl:text-base mt-5 w-[85%] mb-14 max-2xl:mb-10 max-md:mb-9">
                 Working together towards an eco-friendly future, with renewable
                 practices for long-term health and prosperity.
               </p>
-              <button className="bg-tomato-red hover:bg-white hover:text-tombg-tomato-red border-[1px] border-transparent hover:border-tomato-red transition-all text-white hover:text-tomato-red text-lg font-medium px-7 py-3 rounded-[4px] max-sm:text-sm">
-                Donate now
-              </button>
+              <ButtonSolid/>
             </div>
           </div>
           <div className="w-1/2 max-lg:w-full">
-            <div className="absolute w-fit max-lg:w-2/3 max-sm:max-w-[500px] max-sm:w-full max-lg:mx-auto max-lg:relative bottom-0">
-              <img src={homeimg} className="w-full" alt="" />
+            <div className="absolute w-fit max-lg:w-7/12 max-sm:max-w-[500px] max-sm:w-full max-lg:mx-auto max-lg:relative bottom-0">
+              <img src={homeimg} className="w-full max-xl:w-11/12" alt="" />
               <div className="absolute top-[5%] right-[40%] w-16 max-xl:w-12">
                 <img src={hand_price} alt="handpricelogo" />
               </div>

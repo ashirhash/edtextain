@@ -15,7 +15,7 @@ const NewsCard = ({ image, tagColor, category, title, date, author }) => {
         >
           #{category}
         </span>
-        <h3 className="text-2xl max-sm:text-xl font-medium text-dark-navy mb-3">{title}</h3>
+        <h3 className="text-2xl max-2xl:text-[22px] max-sm:text-xl font-medium text-dark-navy mb-3">{title}</h3>
         <p className="text-gray-600 text-sm mb-5 pb-5 border-b border-[#DDD]">
           Lorem ipsum dolor sit amet, consectetur notted adipiscing elit sed do
           eiusmod...

@@ -10,10 +10,10 @@ const ServiceCard = ({ icon = "", title = "", desc = "" }) => {
         height={64}
         className="mb-4 mx-auto"
       />
-      <h3 className="text-dark-navy mb-3 text-2xl max-md:text-xl font-medium text-center mx-3 sm:min-h-[70px] flex items-center justify-center">
+      <h3 className="text-dark-navy mb-3 text-2xl max-2xl:text-xl font-medium text-center mx-3 sm:min-h-[70px] flex items-center justify-center">
         {title}
       </h3>
-      <p className="text-light-gray text-lg leading-[1.7] text-center max-sm:text-sm max-md:text-base">
+      <p className="text-light-gray text-lg leading-[1.7] text-center max-sm:text-sm max-2xl:text-base">
         {desc}
       </p>
     </div>

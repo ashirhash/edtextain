@@ -43,8 +43,8 @@ const ServicesSection = () => {
         className="absolute rotate-12 -bottom-32 right-0 -z-[1]"
       />
       <div className="container">
-        <SideShapeHeading className="w-fit mx-auto mb-12">
-          <YellowUnderlineHeading className="leading-none max-md:text-4xl">
+        <SideShapeHeading className="w-fit mx-auto mb-12 " headingClassName="max-md:text-4xl max-lg:text-[40px] max-2xl:text-[44px]">
+          <YellowUnderlineHeading className="leading-none">
             Services
           </YellowUnderlineHeading>
         </SideShapeHeading>

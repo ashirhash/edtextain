@@ -9,13 +9,13 @@ const Header = () => {
 
   return (
     <header>
-      <div className="container max-w-container-xl">
+      <div className="container max-w-container-xl xl:px-20">
         <nav className="w-full py-4 flex justify-between items-center relative">
           <div className="logo">
             <a href="/">
               <img
                 src={logo}
-                className="w-52 max-sm:w-36 2xl:w-64"
+                className="w-52 max-sm:w-36 md:w-48 xl:w-56 2xl:w-64"
                 alt="logo img"
               />
             </a>
