@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <header>
-      <div className="container max-w-container-xl xl:px-20">
+      <div className="mx-auto max-w-container-xl px-5 max-2xl:px-20 max-xl:px-5">
         <nav className="w-full py-4 flex justify-between items-center relative">
           <div className="logo">
             <a href="/">

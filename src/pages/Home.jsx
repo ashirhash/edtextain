@@ -13,7 +13,7 @@ import Marquee from "../components/Marquee";
 const Home = () => {
   return (
     <>
-      <main className="w-full h-screen  ">
+      <main className="w-full">
         <Header />
         <HomeSection />
         <CoreValues />
