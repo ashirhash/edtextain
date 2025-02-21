@@ -50,3 +50,4 @@ export { default as rings_shape } from "/assets/images/rings-shape.png";
 export { default as contacts } from "/assets/svgs/contacts.svg";
 export { default as calender } from "/assets/svgs/calender.svg";
 export { default as red_highlight_sm } from "/assets/svgs/red_highlight_sm.svg";
+export { default as niche } from "/assets/images/i_niche.png";

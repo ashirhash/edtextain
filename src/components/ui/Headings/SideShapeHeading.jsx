@@ -14,7 +14,7 @@ const SideShapeHeading = ({
         alt="Highlight_05"
       />
       <h2
-        className={`text-5xl font-semibold text-gray-900 ${headingClassName}`}
+        className={`text-5xl font-medium text-dark-navy ${headingClassName}`}
       >
         {children}
       </h2>

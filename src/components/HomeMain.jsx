@@ -13,7 +13,7 @@ import ButtonSolid from "./ui/buttons/ButtonSolid";
 const HomeSection = () => {
   return (
     <>
-      <section className="bg-[#eef4f8] relative z-[1] overflow-hidden max-lg:min-h-[600px]">
+      <section className="bg-[#eef4f8] relative z-[1] overflow-hidden">
         <img
           src={banner_blob}
           alt="blob shape"
@@ -24,10 +24,10 @@ const HomeSection = () => {
           alt="blob shape"
           className="absolute right-0 -z-[1] w-2/4 max-lg:hidden"
         />
-        <div className="container w-full flex max-lg:flex-col max-2xl:items-start items-center">
+        <div className="container 2xl:max-w-[1450px] w-full flex max-lg:flex-col max-2xl:items-start items-center">
           <div className="w-[55%] max-lg:w-full pt-44 max-2xl:pt-32 max-2xl:pb-24 max-xl:pt-20 max-xl:pb-20 max-lg:pt-12 max-lg:pb-5 max-sm:py-10 pb-36">
             <div className="max-2xl:max-w-[600px] max-lg:w-full">
-              <h1 className="text-[82px] max-2xl:text-6xl max-xl:text-[42px] max-sm:text-4xl z-1 relative leading-tight text-gray-900">
+              <h1 className="text-[82px] max-2xl:text-6xl max-xl:text-[42px] max-sm:text-4xl z-1 relative leading-tight text-dark-navy">
                 <YellowUnderlineHeading
                   className="font-bold"
                   strokeClassName="bottom-4"
@@ -37,7 +37,7 @@ const HomeSection = () => {
                 <span className="font-bold"> Action</span>
                 <span className="font-light"> For A Sustainable Tomorrow</span>
               </h1>
-              <p className="text-gray-600 text-lg max-xl:text-base mt-5 w-[85%] mb-14 max-2xl:mb-10 max-md:mb-9">
+              <p className="text-light-gray text-lg max-xl:text-base mt-5 w-[85%] mb-14 max-2xl:mb-10 max-md:mb-9">
                 Working together towards an eco-friendly future, with renewable
                 practices for long-term health and prosperity.
               </p>

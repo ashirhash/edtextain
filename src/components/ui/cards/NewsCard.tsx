@@ -11,18 +11,18 @@ const NewsCard = ({ image, tagColor, category, title, date, author }) => {
       />
       <div className="p-4">
         <span
-          className={`text-sm text-tomato-red font-medium mb-3 ${tagColor}`}
+          className={`xl:text-base text-tomato-red font-medium mb-3 block ${tagColor}`}
         >
           #{category}
         </span>
         <h3 className="text-2xl max-2xl:text-[22px] max-sm:text-xl font-medium text-dark-navy mb-3">{title}</h3>
-        <p className="text-gray-600 text-sm mb-5 pb-5 border-b border-[#DDD]">
+        <p className="text-light-gray xl:text-base mb-4 pb-5 border-b border-[#DDDDDD4D]">
           Lorem ipsum dolor sit amet, consectetur notted adipiscing elit sed do
           eiusmod...
         </p>
-        <div className="grid grid-cols-2 justify-between text-gray-500 text-xs mt-4">
-          <div className="flex gap-2 border-r border-[#DDD]">
-            <span className="block w-9 h-9 rounded-full p-[10px] bg-[#FDF0DD]">
+        <div className="grid grid-cols-2 justify-between text-light-gray text-xs mt-4">
+          <div className="flex gap-2 border-r border-[#DDDDDD4D]">
+            <span className="block w-9 h-9 rounded-full p-[10px] bg-[#fcebeb]">
               <img
                 src={calender}
                 alt="calender icon"
@@ -32,12 +32,12 @@ const NewsCard = ({ image, tagColor, category, title, date, author }) => {
               />{" "}
             </span>
             <div className="">
-              <span className="font-medium text-base block text-dark-navy max-sm:text-sm">Date:</span>
+              <span className="font-medium text-base block text-dark-navy max-sm:text-sm leading-tight">Date:</span>
               <span className="text-sm block text-light-gray">{date}</span>
             </div>
           </div>
           <div className="flex gap-2 ml-6">
-            <span className="block w-9 h-9 rounded-full p-[10px] bg-[#FDF0DD]">
+            <span className="block w-9 h-9 rounded-full p-[10px] bg-[#fcebeb]">
               <img
                 src={contacts}
                 alt="calender icon"
@@ -47,7 +47,7 @@ const NewsCard = ({ image, tagColor, category, title, date, author }) => {
               />{" "}
             </span>
             <div className="">
-              <span className="font-medium text-base block text-dark-navy max-sm:text-sm">By:</span>
+              <span className="font-medium text-base block text-dark-navy max-sm:text-sm leading-tight">By:</span>
               <span className="text-sm block text-light-gray">{author}</span>
             </div>
           </div>

@@ -9,8 +9,8 @@ const Appointment = () => {
         className="bg-cover bg-center bg-no-repeat mb-36 max-lg:mb-24"
         style={{ backgroundImage: `url(${group_of_people_in_sunshine})` }}
       >
-        <div className=" bg-black bg-opacity-60">
-          <div className="container relative py-16 grid grid-cols-10 gap-12 max-lg:items-start max-lg:flex max-lg:flex-col max-lg items-center">
+        <div className=" bg-dark-navy bg-opacity-70">
+          <div className="container 2xl:max-w-[1450px] relative py-16 grid grid-cols-10 gap-12 max-lg:items-start max-lg:flex max-lg:flex-col max-lg items-center">
             <div className="col-span-6 max-lg:w-3/4 max-sm:w-full">
               <h2 className="text-[44px] max-2xl:text-4xl max-lg:text-3xl max-sm:text-2xl font-medium leading-snug mb-7 max-xl:mb-5 text-white">
                 “Building Bridges: Embracing, Strengthening Communities”
@@ -24,7 +24,7 @@ const Appointment = () => {
               </p>
             </div>
             <div
-              className="bg-white col-start-8 col-span-6 max-lg:col-span-2 max-xl:w-fit max-xl:col-span-4 max-xl:col-start-7 text-gray-800 rounded-xl drop-shadow-md shadow-lg
+              className="bg-white col-start-8 col-span-6 max-lg:col-span-2 max-xl:w-fit max-xl:col-span-4 max-xl:col-start-7 text-dark-navy rounded-xl drop-shadow-md shadow-lg
  p-6 absolute -bottom-7 max-2xl:-bottom-16 max-xl:-bottom-10 right-0 max-lg:static"
             >
               <h3 className="text-[17px] max-sm:text-base font-semibold text-red-600 mb-5">

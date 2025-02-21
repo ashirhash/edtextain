@@ -1,7 +1,7 @@
 import React from "react";
 import {
   AKPM,
-  empow,
+  niche,
   katho,
   migrations,
   munchen,
@@ -9,13 +9,13 @@ import {
   sonneBrand,
 } from "../assets";
 
-const clients = [AKPM, katho, empow, migrations, munchen, sonneBrand, petra];
+const clients = [AKPM, niche, katho, migrations, munchen, sonneBrand, petra];
 
 const Marquee = () => {
   return (
     <section className="px-5">
-      <div className="container px-10 max-2xl:px-6 rounded-lg py-20 max-2xl:py-14 max-lg:py-10 shadow-4-6-24-0-0.08">
-        <ul className="flex gap-14 flex-wrap justify-center items-center">
+      <div className="container 2xl:max-w-[1450px]">
+        <ul className="flex gap-14 flex-wrap justify-center items-center px-10 max-2xl:px-6 rounded-lg py-20 max-2xl:py-14 max-lg:py-10 shadow-4-6-24-0-0.08">
           {clients.map((item, index) => (
             <img
               key={index}

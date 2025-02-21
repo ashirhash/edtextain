@@ -55,10 +55,10 @@ const Projects = () => {
           alt="blob shape"
           className="absolute left-0 top-[80%] -z-[1] "
         />
-        <div className="container">
+        <div className="container 2xl:max-w-[1450px]">
           <SideShapeHeading
             headingClassName="max-2xl:text-[44px] max-lg:text-4xl max-lg:max-w-"
-            className="mx-auto w-fit mb-11 max-lg:max-w-[80%] max-lg:text-center"
+            className="mx-auto w-fit mb-12 max-lg:max-w-[80%] max-lg:text-center font-medium"
           >
             Our Work:{" "}
             <YellowUnderlineHeading className="max-sm:block">
@@ -66,11 +66,11 @@ const Projects = () => {
             </YellowUnderlineHeading>
           </SideShapeHeading>
           <div className="bg-white border border-dark-navy rounded-xl p-11 max-sm:p-7">
-            <div className="lg:w-3/4">
-              <h3 className="text-2xl max-sm:text-xl font-medium text-dark-navy mb-4">
+            <div className="lg:w-4/5">
+              <h3 className="text-3xl max-2xl:text-2xl max-sm:text-xl font-medium text-dark-navy mb-4">
                 Moving Women Empowerment Network (MWEN)
               </h3>
-              <p className="text-light-gray mb-10 max-sm:text-sm">
+              <p className="text-light-gray mb-10 text-lg max-2xl:text-base max-sm:text-sm">
                 MWEN (Moving Women Empowerment Network) Supporting the
                 advancement of women by providing resources and support for them
                 to succeed in their communities and professional lives.
@@ -109,13 +109,13 @@ const Projects = () => {
         </div>
       </section>
       <section className="mb-28 max-lg:mb-20 max-sm:mb-16 bg-white ">
-        <div className="container mx-auto relative z-[1] px-4 grid grid-cols-1 lg:grid-cols-2 items-center">
+        <div className="container 2xl:max-w-[1450px] mx-auto relative z-[1] px-4 grid grid-cols-1 lg:grid-cols-2 items-center">
           <div className="p-16 max-sm:px-7 h-[80%] flex flex-col justify-center border border-dark-navy lg:border-r-0 bg-white rounded-l-xl  max-lg:rounded-xl drop-shadow-md shadow-lg">
             <div className="lg:max-w-[440px] ">
-              <h2 className="text-3xl max-2xl:text-[26px] max-lg:text-2xl max-sm:text-xl font-medium text-gray-800 mb-3">
+              <h2 className="text-3xl max-2xl:text-[26px] max-lg:text-2xl max-sm:text-xl font-medium text-dark-navy mb-3">
                 Skills2Evolve (S2E)
               </h2>
-              <p className="text-gray-600 text-lg max-2xl:text-base max-sm:text-sm">
+              <p className="text-light-gray text-lg 2xl:leading-[1.8] max-2xl:text-base max-sm:text-sm">
                 Digital training to empower young people and up-skill and
                 re-skill adults with technical skills for a more sustainable
                 future. A project in partnership with inicheativ GmbH.
@@ -132,7 +132,7 @@ const Projects = () => {
         </div>
       </section>
       <section className="mb-36 max-lg:mb bg-white ">
-        <div className="container mx-auto relative z-[1] px-4 grid max-lg:flex max-lg:flex-col-reverse grid-cols-12 items-start ">
+        <div className="container 2xl:max-w-[1450px] mx-auto relative z-[1] px-4 grid max-lg:flex max-lg:flex-col-reverse grid-cols-12 items-start ">
           <img
             src={treeShape}
             alt="tree shape"
@@ -147,20 +147,20 @@ const Projects = () => {
           </div>
           <div className="p-16 col-span-8 mt-7 py-10 max-sm:px-7 max-sm:py-7 flex flex-col justify-center border border-dark-navy lg:border-l-0 bg-white rounded-r-xl max-lg:mb-5 max-lg:rounded-lg drop-shadow-md shadow-lg">
             <div className="pb-6 mb-6 border-b border-[#B6C2C9]">
-              <h2 className="text-3xl max-2xl:text-[26px] max-lg:text-2xl max-sm:text-xl font-medium text-gray-800 mb-3">
+              <h2 className="text-3xl max-2xl:text-[26px] max-lg:text-2xl max-sm:text-xl font-medium text-dark-navy mb-3">
                 Sonne Kidz
               </h2>
-              <p className="text-gray-600 text-lg max-2xl:text-base max-sm:text-sm">
+              <p className="text-light-gray 2xl:leading-[1.8] text-lg max-2xl:text-base max-sm:text-sm">
                 We provide children with a supportive and enriching program that
                 celebrates their cultural heritage, fosters integration, and
                 promotes holistic development.
               </p>
             </div>
             <div className="">
-              <h2 className="text-3xl max-2xl:text-[26px] max-lg:text-2xl max-sm:text-xl font-medium text-gray-800 mb-3">
+              <h2 className="text-3xl max-2xl:text-[26px] max-lg:text-2xl max-sm:text-xl font-medium text-dark-navy mb-3">
                 Sonne Magazine
               </h2>
-              <p className="text-gray-600 text-lg max-2xl:text-base max-sm:text-sm">
+              <p className="text-light-gray 2xl:leading-[1.8] text-lg max-2xl:text-base max-sm:text-sm">
                 Celebrates creativity and diversity by exploring the
                 intersection of lifestyle, culture, and innovation. We provide a
                 platform that offers insightful perspectives on fashion, art,
