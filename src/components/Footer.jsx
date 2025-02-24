@@ -14,9 +14,9 @@ const Footer = () => {
           <p className="leading-relaxed max-lg:text-sm">
             Address:
             <br />
-            C/O Inicheativ GmbH Bodenseestr 217
+            C/O Inicheativ GmbH
             <br />
-            81248, München.
+             Bodenseestr 217 81248, München.
             <br />
             Phone: +49 -151-40086034
             <br />

@@ -36,7 +36,7 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section className="pb-28 max-sm:pb-20 pt-36 max-lg:pt-28 relative -z-[1] overflow-hidden">
+    <section className="pb-28 max-sm:pb-20 pt-36 max-lg:pt-28 relative z-[1] overflow-hidden">
       <img
         src={rings_shape}
         alt="rings shape"
@@ -48,7 +48,7 @@ const ServicesSection = () => {
             Services
           </YellowUnderlineHeading>
         </SideShapeHeading>
-        <div className="grid grid-cols-4 max-xl:grid-cols-2 max-sm:grid-cols-1 gap-8">
+        <div className="grid grid-cols-4 max-xl:grid-cols-2 max-sm:grid-cols-1 gap-8 items-start">
           {services.map((service, index) => (
             <ServiceCard
               key={index}

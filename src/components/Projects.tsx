@@ -24,7 +24,7 @@ const projects = [
   {
     name: "EmpowHer Girls",
     description:
-      "The Moving Women Empower Girls Initiative empowers young girls through mentorship, education, and skill-building to foster future changemakers.",
+      "Empowers young girls through mentorship, education, and skill-building.",
     logo: impowegirl,
   },
   {
