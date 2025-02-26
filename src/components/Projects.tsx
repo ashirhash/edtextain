@@ -76,11 +76,11 @@ const Projects = () => {
                 to succeed in their communities and professional lives.
               </p>
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start max-xl:items-start">
+            <div className="flex flex-col lg:flex-row gap-8 items-start max-xl:items-start">
               <img
                 src={book_with_pen_portrait}
                 alt="MWEN Event"
-                className="rounded-xl shadow-md w-full max-lg:max-w-[600px]"
+                className="rounded-xl shadow-md w-[46.5%] max-lg:w-full max-lg:max-w-[600px]"
               />
               <div className="flex flex-col gap-12 max-xl:gap-5 max-lg:w-[70%] max-md:w-full">
                 {projects.map((project, index) => (
