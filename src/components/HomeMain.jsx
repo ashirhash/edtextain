@@ -27,7 +27,7 @@ const HomeSection = () => {
         <div className="container w-full flex max-lg:flex-col max-2xl:items-start items-center">
           <div className="w-[55%] max-lg:w-full pt-44 max-2xl:pt-32 max-2xl:pb-24 max-xl:pt-20 max-xl:pb-20 max-lg:pt-12 max-lg:pb-5 max-sm:py-10 pb-36">
             <div className="max-2xl:max-w-[600px] max-lg:w-full">
-              <h1 className="text-[82px] max-2xl:text-6xl max-xl:text-[42px] max-sm:text-4xl z-1 relative leading-[1.1] text-dark-navy">
+              <h1 className="text-[74px] max-2xl:text-6xl max-xl:text-[42px] max-sm:text-4xl z-1 relative leading-[1.1] text-dark-navy">
                 <YellowUnderlineHeading
                   className="font-bold"
                   strokeClassName="bottom-4"
