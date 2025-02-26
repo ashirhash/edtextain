@@ -4,7 +4,7 @@ import { fb, insta, linkedin, logo, twitter } from "../assets";
 const Footer = () => {
   return (
     <footer className="bg-[#1a1e35] text-white pt-24 max-sm:pt-20">
-      <div className="container 2xl:max-w-[1450px] mx-auto px-4 pb-16 grid max-md:flex max-md:gap-10 max-md:flex-col grid-cols-1 md:grid-cols-12 gap-8">
+      <div className="container mx-auto px-4 pb-16 grid max-md:flex max-md:gap-10 max-md:flex-col grid-cols-1 md:grid-cols-12 gap-8">
         <div className="col-span-4 max-lg:col-span-5 lg:mr-10">
           <img src={logo} className="w-52 mb-5 max-sm:w-40" alt="logoimg" />
           <p className="mb-4 leading-relaxed max-lg:text-sm">
@@ -92,7 +92,7 @@ const Footer = () => {
       </div>
 
       <div className="bg-tomato-red py-3">
-        <div className="container 2xl:max-w-[1450px] flex justify-between max-sm:flex-col max-sm:gap-5 items-center">
+        <div className="container flex justify-between max-sm:flex-col max-sm:gap-5 items-center">
           <p className="text-base max-lg:text-sm">
             Copyright © 2025 All Rights Reserved
           </p>

@@ -43,7 +43,7 @@ const NewsSection = () => {
       id="news"
       className="pt-32 pb-36 max-lg:py-24 max-md:py-20 relative after:absolute after:w-full after:h-3/4 max-lg:after:h-full after:top-0 after:left-0 after:bg-[#EEF4F8] z-0 after:-z-[1]"
     >
-      <div className="container 2xl:max-w-[1450px]">
+      <div className="container ">
         <div className="text-center mb-12">
           <span className="text-light-gray text-2xl block mb-1 max-2xl:text-xl max-xl:text-lg max-sm:text-lg">
             News

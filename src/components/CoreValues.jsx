@@ -27,7 +27,7 @@ const values = [
 const CoreValues = () => {
   return (
     <section className="pt-32 max-xl:pt-24 pb-64 max-xl:pb-32">
-      <div className="container 2xl:max-w-[1450px] relative grid grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1 justify-center gap-7 max-lg:gap-y-20">
+      <div className="container relative grid grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1 justify-center gap-7 max-lg:gap-y-20">
         {values.map((value, index) => (
           <div
             key={index}

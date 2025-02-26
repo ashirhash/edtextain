@@ -55,7 +55,7 @@ const Projects = () => {
           alt="blob shape"
           className="absolute left-0 top-[80%] -z-[1] "
         />
-        <div className="container 2xl:max-w-[1450px]">
+        <div className="container">
           <SideShapeHeading
             headingClassName="max-2xl:text-[44px] max-lg:text-4xl max-lg:max-w-"
             className="mx-auto w-fit mb-12 max-lg:max-w-[80%] max-lg:text-center font-medium"
@@ -109,7 +109,7 @@ const Projects = () => {
         </div>
       </section>
       <section className="mb-28 max-lg:mb-20 max-sm:mb-16 bg-white ">
-        <div className="container 2xl:max-w-[1450px] mx-auto relative z-[1] px-4 grid grid-cols-1 lg:grid-cols-2 items-center">
+        <div className="container mx-auto relative z-[1] px-4 grid grid-cols-1 lg:grid-cols-2 items-center">
           <div className="p-16 max-sm:px-7 h-[80%] flex flex-col justify-center border border-dark-navy lg:border-r-0 bg-white rounded-l-xl  max-lg:rounded-xl drop-shadow-md shadow-lg">
             <div className="lg:max-w-[440px] ">
               <h2 className="text-3xl max-2xl:text-[26px] max-lg:text-2xl max-sm:text-xl font-medium text-dark-navy mb-3">
@@ -132,7 +132,7 @@ const Projects = () => {
         </div>
       </section>
       <section className="mb-36 max-lg:mb bg-white ">
-        <div className="container 2xl:max-w-[1450px] mx-auto relative z-[1] px-4 grid max-lg:flex max-lg:flex-col-reverse grid-cols-12 items-start ">
+        <div className="container mx-auto relative z-[1] px-4 grid max-lg:flex max-lg:flex-col-reverse grid-cols-12 items-start ">
           <img
             src={treeShape}
             alt="tree shape"

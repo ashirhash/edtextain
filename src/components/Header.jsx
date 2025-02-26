@@ -9,13 +9,13 @@ const Header = () => {
 
   return (
     <header>
-      <div className="container 2xl:max-w-[1450px]">
+      <div className="container">
         <nav className="w-full py-3 flex justify-between items-center relative">
           <div className="logo">
             <a href="/">
               <img
                 src={logo}
-                className="w-52 max-sm:w-36 md:w-48 xl:w-56 2xl:w-[271px]"
+                className="w-52 max-sm:w-36 md:w-48 xl:w-56 2xl:w-[250px]"
                 alt="logo img"
               />
             </a>
@@ -31,7 +31,7 @@ const Header = () => {
                 <a
                   key={index}
                   href="#"
-                  className="relative text-dark-navy transition hover:text-tomato-red cursor-pointer after:mx-auto after:block after:h-[1px] after:w-0 after:bg-tomato-red after:transition-all hover:after:w-8 after:mt-2 after:absolute after:bottom-0 after:left-0 after:right-0 pb-1 max-xl:text-sm max-lg:text-base"
+                  className="relative text-dark-navy transition hover:text-tomato-red cursor-pointer after:mx-auto after:block after:h-[1px] after:w-0 after:bg-tomato-red after:transition-all hover:after:w-8 after:mt-2 after:absolute after:bottom-0 after:left-0 after:right-0 max-sm:pb-1 max-xl:text-sm max-lg:text-base"
                 >
                   {nav}
                 </a>

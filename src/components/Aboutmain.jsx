@@ -11,7 +11,7 @@ import ButtonSolid from "./ui/buttons/ButtonSolid";
 const AboutSection = () => {
   return (
     <section id="about" className="mb-36 max-lg:mb-32 max-sm:mb-20">
-      <div className="container 2xl:max-w-[1450px] flex flex-col gap-7 md:flex-row bg-white">
+      <div className="container flex flex-col gap-7 md:flex-row bg-white">
         <div className="md:w-1/2 relative flex flex-col items-center md:items-start">
           <img
             src={man_standing_on_rock}
@@ -44,7 +44,7 @@ const AboutSection = () => {
             <YellowUnderlineHeading>Enabling people,</YellowUnderlineHeading>{" "}
             inspiring growth, supporting innovation
           </h2>
-          <div className="lg:w-4/5">
+          <div className="2xl:w-4/5">
             <p className="text-tomato-red font-medium mb-5 text-2xl max-2xl:text-xl max-sm:text-base max-lg:text-lg">
               We enable inter-cultural conversations.
             </p>
